@@ -11,6 +11,7 @@ body
   right:73%;
   height:100%;
   width:20%;
+  overflow-left:scroll;
 
   
 }
