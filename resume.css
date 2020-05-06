@@ -35,27 +35,27 @@ body
 }
 #address
 { 
-  list-style-image:url(Resume/address.jpg);
+  list-style-image:url(../address.jpg);
 }
 
 #phone
 { 
-  list-style-image:url(Resume/phone.jpg);
+  list-style-image:url(../phone.jpg);
 }
 
 #email
 {
-  list-style-image:url(Resume/email.jpg);
+  list-style-image:url(../email.jpg);
 }
 #github
 {
-  list-style-image: url(Resume/github.jpg);
+  list-style-image: url(../github.jpg);
 }
 #skills>li
 {
   
 }
-#References>li,#education>li>ul>li,#education>li,#iiljin>li,#projects>li>ul>li,#projects>li
+#References>li,#education>li>ul>li,#education>li,#projects>li>ul>li,#projects>li
 {
   display:block;
 }
@@ -78,4 +78,8 @@ body
   margin-right: 1%;
   border: 1px solid gray;
   font-size: 12px; 
+}
+.summer>li
+{
+  display: inline-block;
 }
