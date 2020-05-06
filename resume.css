@@ -35,21 +35,21 @@ body
 }
 #address
 { 
-  list-style-image:url(../address.jpg);
+  list-style-image:url(Resume/address.jpg);
 }
 
 #phone
 { 
-  list-style-image:url(../phone.jpg);
+  list-style-image:url(Resume/phone.jpg);
 }
 
 #email
 {
-  list-style-image:url(../email.jpg);
+  list-style-image:url(Resume/email.jpg);
 }
 #github
 {
-  list-style-image: url(../github.jpg);
+  list-style-image: url(Resume/github.jpg);
 }
 #skills>li
 {
