@@ -1,0 +1,81 @@
+body
+{
+  font-family:"Times New Roman";
+}
+#left
+{
+  position:absolute;
+  top:1%;
+  bottom:1%;
+  left:1%;
+  right:73%;
+  height:150%;
+  width:20%;
+  overflow: scroll;
+  
+}
+#right
+{
+  position:absolute;
+  right:1%;
+  top:1%;
+  bottom:1%;
+  left:22%;
+  height:100%;
+  width:73%;
+  background: #FFFFFE;
+}
+.technology>li
+{
+  border:1px solid gray;
+  width:35%;
+  background:lightgray;
+  margin:2px;
+  display:inline-block;
+}
+#address
+{ 
+  list-style-image:url(../address.jpg);
+}
+
+#phone
+{ 
+  list-style-image:url(../phone.jpg);
+}
+
+#email
+{
+  list-style-image:url(../email.jpg);
+}
+#github
+{
+  list-style-image: url(../github.jpg);
+}
+#skills>li
+{
+  
+}
+#References>li,#education>li>ul>li,#education>li,#iiljin>li,#projects>li>ul>li,#projects>li
+{
+  display:block;
+}
+
+#achievements>li
+{
+  display: block;
+}
+.gray>li,.gray>li
+{
+  display: block;
+  color: gray;
+}
+.inlineblock>li
+{
+  display: inline;
+  background: lightgray;
+  width: 20%;
+  padding: 0.5%;
+  margin-right: 1%;
+  border: 1px solid gray;
+  font-size: 12px; 
+}
