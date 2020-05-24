@@ -8,8 +8,7 @@ body
   top:1%;
   bottom:1%;
   left:1%;
-  right:73%;
-  height:170%;
+  height:1180px;
   width:20%;
   overflow: scroll;
   
@@ -17,13 +16,11 @@ body
 #right
 {
   position:absolute;
-  right:1%;
   top:1%;
-  bottom:1%;
   left:22%;
-  height:170%;
-  width:73%;
-  background: #FFFFFE;
+  height:1180px;
+  width:77%;
+  background: #FFF;
 }
 .technology>li
 {
@@ -51,10 +48,6 @@ body
 {
   list-style-image: url(Resume/github.jpg);
 }
-#skills>li
-{
-  
-}
 #References>li,#education>li>ul>li,#education>li,#projects>li>ul>li,#projects>li
 {
   display:block;
@@ -73,7 +66,6 @@ body
 {
   display: inline;
   background: lightgray;
-  width: 20%;
   padding: 0.5%;
   margin-right: 1%;
   border: 1px solid gray;
