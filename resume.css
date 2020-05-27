@@ -48,6 +48,10 @@ body
 {
   list-style-image: url(Resume/github.jpg);
 }
+#codepen
+{
+  list-style-image: url(Resume/codepen.png);
+}
 #References>li,#education>li>ul>li,#education>li,#projects>li>ul>li,#projects>li
 {
   display:block;
