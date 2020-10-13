@@ -52,11 +52,14 @@ body
 {
   list-style-image: url("codepen.png");
 }
+#kaggle
+{
+  list-style-image: url("kaggle.png");
+}
 #References>li,#education>li>ul>li,#education>li,#projects>li>ul>li,#projects>li
 {
   display:block;
 }
-
 #achievements>li
 {
   display: block;
