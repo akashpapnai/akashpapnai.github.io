@@ -73,15 +73,7 @@ ul,blockquote {
 }
 #linkedin
 {
-  margin-left: -32px;
-	background-image: url("linkedin.png");
-	background-repeat: no-repeat;
-	background-size: 25px;
-}
-
-#linkedin span {
-  position: relative;
-  left: 30px;
+  list-style-image: url("linkedin.jpg");
 }
 
 #References>li,#education>li>ul>li,#education>li,#projects>li>ul>li,#projects>li
