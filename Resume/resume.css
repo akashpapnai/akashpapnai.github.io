@@ -23,7 +23,6 @@ ul,blockquote {
   width:300px;
   overflow: scroll;
   margin-left: 1%;
-  
 }
 #right
 {
@@ -72,6 +71,19 @@ ul,blockquote {
 {
   list-style-image: url("kaggle.png");
 }
+#linkedin
+{
+  margin-left: -32px;
+	background-image: url("linkedin.png");
+	background-repeat: no-repeat;
+	background-size: 25px;
+}
+
+#linkedin span {
+  position: relative;
+  left: 30px;
+}
+
 #References>li,#education>li>ul>li,#education>li,#projects>li>ul>li,#projects>li
 {
   display:block;
