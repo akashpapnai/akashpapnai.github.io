@@ -19,10 +19,10 @@ ul,blockquote {
   position:absolute;
   top:0;
   left:0;
-  height:85em;
-  width:18em;
+  height:100%;
+  width:300px;
   overflow: scroll;
-  margin: 1em;
+  margin-left: 1%;
   
 }
 #right
@@ -30,9 +30,11 @@ ul,blockquote {
   position:absolute;
   top:0;
   left:0;
-  height:1180px;
-  width:95em;
+  right: 0;
+  height:100%;
   margin-left: 350px;
+  min-width: 620px;
+  overflow: scroll;
 }
 .technology>li
 {
