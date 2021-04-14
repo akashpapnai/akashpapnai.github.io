@@ -1,29 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+@page {
+  size: auto;
+  margin: 0;
+}
 
-body
-{
-  font-family:"Times New Roman";
+#left h1 {
+  line-height: 2px;
+  font-size: 3em;
+  width: 1000px;
+  margin-top: -25px;
 }
 
 h1,h2,h3{
   font-family: 'Dancing Script', cursive;
 }
 
+#contact {
+  margin-top: 60px;
+}
+
 ul,blockquote {
   font-family: 'Amiri', serif;
+}
+
+hr {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  top: 140px;
+  height: 5px;
+  background-color: gray;
 }
 
 #left
 {
   position:absolute;
-  top:0;
+  top:0px;
   left:0;
   height:100%;
   width:300px;
-  overflow: scroll;
+  /* overflow: scroll; */
   margin-left: 1%;
+  margin-top: 90px;
 }
+
 #right
 {
   position:absolute;
@@ -33,7 +54,8 @@ ul,blockquote {
   height:100%;
   margin-left: 350px;
   min-width: 620px;
-  overflow: scroll;
+  /* overflow: scroll; */
+  margin-top: 120px;
 }
 .technology>li
 {
@@ -44,6 +66,7 @@ ul,blockquote {
   display:inline-block;
   text-align: center;
   font-size: 14px;
+  -webkit-print-color-adjust: exact;
 }
 #address
 { 
@@ -88,6 +111,7 @@ ul,blockquote {
 {
   display: block;
   color: gray;
+  -webkit-print-color-adjust: exact;
 }
 .inlineblock>li
 {
@@ -97,6 +121,7 @@ ul,blockquote {
   margin-right: 1%;
   border: 1px solid gray;
   font-size: 12px; 
+  -webkit-print-color-adjust: exact;
 }
 .summer>li
 {
