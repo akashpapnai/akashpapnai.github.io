@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+.bg2 {
+  background: blueviolet;
+  height: 100%;
+}
+
+/* Images of School and college*/
+.ims {
+  position: absolute;
+  top: 30px;
+  background: green;
+  left: 1%;
+}
+
+#imsi {
+  position: absolute;
+  top:70px;
+  height: 300px;
+  width: 400px;
+  border-radius: 30%;
+}
+.imc1 {
+  position: absolute;
+  top: 500px;
+  background: green;
+  right: 1%;
+}
+
+#imc1i {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  border-radius: 30%;
+  right: 1%;
+}
+.imc2 {
+  position: absolute;
+  top: 850px;
+  background: green;
+  left: 1%;
+}
+
+#imc2i {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  border-radius: 30%;
+}
+
+/*Images Content*/
+
+#sc {
+  position: absolute;
+  left: 3%;
+  font-size: 5rem;
+  font-family: 'Pattaya', sans-serif;
+}
+
+#cc {
+  position: absolute;
+  top:290px;
+  right: 2%;
+  width: 380px;
+  font-size: 5rem;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+}
+
+#cc2 {
+  position: absolute;
+  top:640px;
+  left: 2%;
+  width: 380px;
+  font-size: 5rem;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+}
