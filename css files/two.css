@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-.bg2 {
-  background: blueviolet;
-  height: 100%;
-}
 
 /* Images of School and college*/
 .ims {
   position: absolute;
   top: 30px;
-  background: green;
   left: 1%;
 }
 
@@ -22,7 +17,6 @@
 .imc1 {
   position: absolute;
   top: 500px;
-  background: green;
   right: 1%;
 }
 
@@ -36,7 +30,6 @@
 .imc2 {
   position: absolute;
   top: 850px;
-  background: green;
   left: 1%;
 }
 

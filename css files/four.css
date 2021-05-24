@@ -1,0 +1,63 @@
+.dbproj {
+  position: absolute;
+  top:10%;
+  left: 1%;
+  height: 295px;
+  width: 485px;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+}
+
+.dbproj p {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-size: 3rem;
+}
+
+.chatbot {
+  position: absolute;
+  top:10%;
+  right: 1%;
+  height: 295px;
+  width: 485px;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+}
+
+.chatbot p {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-size: 3rem;
+}
+
+.face_rec {
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 295px;
+  width: 485px;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+}
+
+.face_rec p {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-size: 3rem;
+}
