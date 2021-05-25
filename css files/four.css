@@ -19,6 +19,16 @@
   font-size: 3rem;
 }
 
+.dbproj:hover {
+  position: absolute;
+  height: 695px;
+  width: 95%;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+  z-index: 1;
+}
+
 .chatbot {
   position: absolute;
   top:10%;
@@ -38,6 +48,16 @@
   text-align: center;
   transform: translate(-50%,-50%);
   font-size: 3rem;
+}
+
+.chatbot:hover {
+  position: absolute;
+  height: 695px;
+  width: 95%;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+  z-index: 1;
 }
 
 .face_rec {
@@ -60,4 +80,29 @@
   text-align: center;
   transform: translate(-50%,-50%);
   font-size: 3rem;
+}
+
+.face_rec:hover {
+  position: absolute;
+  height: 695px;
+  width: 95%;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+  z-index: 1;
+}
+
+.face_rec:hover p + .hidden_layer, .chatbot:hover p + .hidden_layer, .dbproj:hover p + .hidden_layer{
+  visibility: visible;
+  top:30%;
+  height: 10px;
+  font-size: 2rem;
+}
+
+.hidden_layer {
+  visibility: hidden;
+}
+
+.face_rec:hover p, .chatbot:hover p, .dbproj:hover p{
+  top:10%;
 }

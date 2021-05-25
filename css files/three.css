@@ -19,6 +19,17 @@
   font-size: 3rem;
 }
 
+.programmingskills:hover {
+  position: absolute;
+  right: 1%;
+  height: 695px;
+  width: 95%;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+  z-index: 1;
+}
+
 .technology {
   position: absolute;
   top:10%;
@@ -38,6 +49,17 @@
   text-align: center;
   transform: translate(-50%,-50%);
   font-size: 3rem;
+}
+
+.technology:hover {
+  position: absolute;
+  right: 1%;
+  height: 695px;
+  width: 95%;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+  z-index: 1;
 }
 
 .database {
@@ -60,4 +82,31 @@
   text-align: center;
   transform: translate(-50%,-50%);
   font-size: 3rem;
+}
+
+.database:hover {
+  position: absolute;
+  right: 1%;
+  height: 695px;
+  width: 95%;
+  border-radius: 20%;
+  background: #464646;
+  color: white;
+  z-index: 1;
+}
+
+.database:hover p + .hidden_layer, .programmingskills:hover p + .hidden_layer, .technology:hover p + .hidden_layer{
+  visibility: visible;
+  top:20%;
+  font-size: 2rem;
+  width: 90%;
+  height: 10px;
+}
+
+.hidden_layer {
+  visibility: hidden;
+}
+
+.programmingskills:hover p, .database:hover p, .technology:hover p {
+  top: 10%;
 }
