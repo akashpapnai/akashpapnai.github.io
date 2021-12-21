@@ -134,7 +134,7 @@ header .navigation li a:hover
 }
 section
 {
-   padding: 150px;
+   padding: 100px;
 }
 
 /* about */
@@ -144,6 +144,7 @@ section
    width: 100%;
    display: flex;
    justify-content: space-between;
+   min-width: 550px;
 }
  .row .col50
 {
@@ -403,4 +404,17 @@ section
    font-weight: 500;
    border: none;
    cursor: pointer;
+}
+.copyrightText
+{
+   padding: 8px 40px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+.copyrightText p
+{
+   color: #ff0157;
+   font-weight: 500;
+   text-decoration: none;
+   text-align: center;
 }
